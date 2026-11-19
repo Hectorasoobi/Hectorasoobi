@@ -1,38 +1,55 @@
 <div align="center">
-  <h1>Sinan Sarp Göksun</h1>
-  <p><strong>Management Information Systems (B.Sc., English) @ FMV Işık University</strong></p>
-  <p>Software Development & Defense Industry R&D · SEMRUK 2026 VTOL UAV Team · INTALA LAB Student Assistant</p>
+  <h1>Hectorasoobi</h1>
+  <p><strong>Software Engineering · Defense & Aerospace R&D · Embedded Robotics</strong></p>
   <p>
-    <a href="https://www.linkedin.com/in/sinan-sarp-goksun/"><img src="https://img.shields.io/badge/LinkedIn-Sinan_Sarp_G%C3%B6ksun-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="mailto:sarpgoksun@gmail.com"><img src="https://img.shields.io/badge/Email-sarpgoksun%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    <img src="https://img.shields.io/badge/Focus-VTOL_UAV_%26_Robotics-0F172A?style=for-the-badge&logo=linux&logoColor=white" alt="Focus" />
+    <img src="https://img.shields.io/badge/Stack-Java_%7C_C_%7C_React_%7C_SQL-2563EB?style=for-the-badge" alt="Stack" />
+    <img src="https://img.shields.io/badge/Systems-Debian_Linux-A81D33?style=for-the-badge&logo=debian&logoColor=white" alt="Debian" />
   </p>
 </div>
 
 ---
 
-### 👨‍💻 About Me
+### ⚡ Engineering & Development Focus
 
-- 🔬 **Student Assistant (R&D & Software)** at **INTALA LAB (Işık University)** — supporting the Faculty Dean's TÜBİTAK-funded research projects and developing practical web & software applications to streamline student workflows.
-- ✈️ **SEMRUK 2026 International UAV Competition (Free Mission Category)** — member of the 6-person **Semruk MGM** engineering team developing a hybrid VTOL / fixed-wing UAV; responsible for CFD aerodynamic analysis, 3D CAD/mesh modeling (`Onshape`, `Blender`), 3D printing, data analysis, and sponsorship negotiations (~100,000 TRY secured via Deneyap).
-- 🖥️ **IT Infrastructure & Systems Intern** at **Simgenet Engineering** (Summer 2026) — enterprise server and router hardware deployment, network configuration, and Debian Linux installation.
-- 🎓 **3rd-Year MIS Student** at **FMV Işık University** (`2024 – 2028`) & **Management Team Member** at **IT MIS Club**.
+- ✈️ **VTOL Unmanned Aerial Vehicle (UAV) R&D** — Designing a hybrid vertical take-off & landing (VTOL) and fixed-wing cruise UAV within a 6-member engineering team; leading **CFD aerodynamic simulations**, **3D CAD/mesh modeling** (`Onshape`, `Blender`), **additive manufacturing (3D printing)**, and flight data analysis.
+- 🔬 **R&D Lab & Academic Software Systems** — Supporting TÜBİTAK-funded research projects and engineering full-stack web tools that automate academic workflows and business-day calculations.
+- 🤖 **Embedded Systems & Autonomous Robotics** — Developing a **Raspberry Pi-based Rover** platform integrating camera vision and multi-sensor arrays toward autonomous navigation.
+- 🖥️ **Systems & Network Infrastructure** — Hands-on deployment of enterprise servers, router hardware platforms, network configuration, and **Debian Linux** environments.
 
 ---
 
-### 🚀 Featured Projects & Engineering Work
+### 🚀 Featured Engineering Projects
 
-| Project | Overview | Technologies & Tools |
+| Project | Architecture & Scope | Core Technologies |
 | :--- | :--- | :--- |
-| **✈️ SEMRUK 2026 VTOL UAV** | Hybrid vertical take-off & landing (VTOL) and fixed-wing cruise UAV developed for the SEMRUK 2026 International UAV Competition | `CFD` · `Onshape` · `Blender` · `3D Printing` · `Data Analysis` |
-| **🧭 Interactive MIS Internship Guide** | Full-featured web application for Işık University MIS students featuring an interactive decision wizard, holiday-adjusted business day calculator & documentation workflows | `React` · `JavaScript` · `HTML5` · `CSS3` |
-| **🚌 LumiQ – Shuttle Queue Tracker** | Campus shuttle queue tracking mobile application integrating UI/UX design, database architecture, live camera stream & feasibility budgeting | `Mobile App` · `SQL` · `UI/UX` · `System Analysis` |
-| **🤖 Autonomous Rover Platform** | Personal robotics project building a Raspberry Pi-based rover with camera vision and multi-sensor modules aimed at autonomous navigation | `Raspberry Pi` · `Linux` · `Sensors` · `Camera Vision` |
-| **📊 DE-KA Corporate & Sales Analysis** | Executive stakeholder interviews and quantitative Excel-based sales performance & company history analysis for DE-KA Elektroteknik A.Ş. | `Excel` · `Data Analysis` · `Business Intelligence` |
+| **✈️ SEMRUK VTOL UAV** | Hybrid VTOL & fixed-wing UAV airframe design, CFD aerodynamic optimization, 3D-printed structural prototyping, and telemetry analysis | `CFD` · `Onshape` · `Blender` · `3D Printing` · `Data Analysis` |
+| **🧭 Interactive Internship & Workflow Suite** | Full-featured React & JavaScript web application with interactive decision wizard, holiday-adjusted business day engine, and document guides | `React` · `JavaScript` · `HTML5` · `CSS3` · `Node.js` |
+| **🚌 LumiQ – Shuttle Queue Tracker** | Real-time shuttle queue monitoring mobile system integrating UI/UX design, relational database architecture, and live camera stream pipeline | `Mobile App` · `SQL Server` · `System Design` · `Live Stream` |
+| **🤖 Raspberry Pi Autonomous Rover** | Modular wheeled robotics platform combining Raspberry Pi compute, camera feed processing, and ultrasonic/IR sensor fusion | `Raspberry Pi` · `C / Python` · `Linux` · `Sensors` |
 
 ---
 
-### 🛠️ Tech Stack & Engineering Tools
+### 📐 System Architecture Overview
 
+```mermaid
+flowchart LR
+  subgraph UAV["✈️ Hybrid VTOL UAV Pipeline"]
+    A["3D CAD & Mesh (Onshape / Blender)"] --> B["CFD Aerodynamic Simulation"]
+    B --> C["Additive Manufacturing (3D Print)"]
+    C --> D["Flight Testing & Data Analysis"]
+  end
+  subgraph ROVER["🤖 Autonomous Rover Pipeline"]
+    E["Multi-Sensor & Camera Input"] --> F["Raspberry Pi Linux Core"]
+    F --> G["Navigation & Actuator Control"]
+  end
+```
+
+---
+
+### 🛠️ Tech Stack & Engineering Toolchain
+
+**Languages, Web & Databases**
 <p align="left">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
@@ -41,8 +58,13 @@
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
+</p>
+
+**CAD, CFD Simulation & Systems Infrastructure**
+<p align="left">
   <img src="https://img.shields.io/badge/Debian_Linux-A81D33?style=for-the-badge&logo=debian&logoColor=white" alt="Debian" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" alt="Raspberry Pi" />
   <img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white" alt="Blender" />
   <img src="https://img.shields.io/badge/Onshape_CAD-1B5FAA?style=for-the-badge&logoColor=white" alt="Onshape" />
   <img src="https://img.shields.io/badge/AutoCAD-E51050?style=for-the-badge&logo=autocad&logoColor=white" alt="AutoCAD" />
@@ -51,9 +73,8 @@
 
 ---
 
-### 🏆 Honors & Achievements
+### 🏆 Robotics & Technical Competitions
 
-- 🌍 **Erasmus+ DiscoverEU (2025 & 2026)** — Selected twice; completed the European travel & cultural exchange program across 5 countries.
-- 🥇 **1st Place** — Era College Entrepreneurship Competition.
-- 🤖 **1st Place** — VEX Robotics Competition (Provincial & School-wide).
-- 🏅 **3rd Place** — FIRST LEGO League (FLL) Free Project Category.
+- 🤖 **1st Place — VEX Robotics Competition** *(Robot design, assembly, and driver control — Provincial & School-wide)*
+- 🥇 **1st Place — Entrepreneurship & Innovation Competition**
+- 🏅 **3rd Place — FIRST LEGO League (FLL)** *(Free Project Category)*
